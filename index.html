@@ -309,6 +309,8 @@
       <div class="cs_height_190 cs_height_xl_145 cs_height_lg_105"></div>
     </section>
     <!-- End About Section -->
+
+    
     <!-- Start Departement Section -->
     <section id="servicessection">
       <div class="container">
@@ -373,7 +375,7 @@
     </section>
     <!-- End Departement Section -->
     <!-- End About Section -->
-    <!-- Start Department Section -->
+    <!-- Start Department Section 
     <section id="teamsection">
       <div class="cs_height_185 cs_height_xl_150 cs_height_lg_110"></div>
       <div class="container">
@@ -387,7 +389,7 @@
           <div class="cs_department_list">
             <div class="cs_department_carousel cs_gap_20">
               <div class="cs_slider_activate">
-                <!--MEMBER-->
+                
                 <div class="cs_isotop_item pediatric psychiatry">
                   <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                     <div class="cs_member_img">
@@ -408,8 +410,6 @@
                     </div>
                   </div>
                 </div>
-                <!-- .cs_isotop_item -->
-                <!--MEMBER-->
                 <div class="cs_isotop_item pediatric psychiatry">
                   <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                     <div class="cs_member_img">
@@ -430,8 +430,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- .cs_isotop_item -->
-                <!--MEMBER-->
+                
                 <div class="cs_isotop_item pediatric psychiatry">
                   <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                     <div class="cs_member_img">
@@ -452,8 +451,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- .cs_isotop_item -->
-                <!--MEMBER-->
+                
                 <div class="cs_isotop_item pediatric psychiatry">
                   <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                     <div class="cs_member_img">
@@ -474,8 +472,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- .cs_isotop_item -->
-                <!--MEMBER-->
+                
                 <div class="cs_isotop_item pediatric psychiatry">
                   <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                     <div class="cs_member_img">
@@ -496,8 +493,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- .cs_isotop_item -->
-                <!--MEMBER-->
+                
                 <div class="cs_isotop_item pediatric psychiatry">
                   <div class="cs_team cs_style_1 cs_type_2 text-center cs_radius_20 overflow-hidden">
                     <div class="cs_member_img">
@@ -518,7 +514,6 @@
                     </div>
                   </div>
                 </div>
-                <!-- .cs_isotop_item -->
               </div>
               <div class="cs_slider_navigation cs_style_1">
                 <div class="cs_slider_prev cs_center"><img src="assets/img/icons/left_arrow_blue.svg" alt="Prev"></div>
@@ -529,7 +524,7 @@
         </div>
       </div>
     </section>
-    <!-- End Department Section -->
+    END DEPT -->
     <!-- Start Testimonial Section -->
     <section class="cs_bg_filed" data-src="assets/img/home_2/testimonial_bg.svg" id="testimonialsection">
       <div class="cs_height_190 cs_height_xl_145 cs_height_lg_105"></div>
@@ -914,6 +909,91 @@
       </div>
     </section>
     <!-- End Appointment  -->
+
+<!-- Google Maps Full-Width Section -->
+<div class="cs_spacing_above_map">
+
+<section class="cs_map_section_with_info">
+  <div class="cs_map_overlay">
+    <div class="cs_map_info_box">
+      <h2>Visit Us</h2>
+      <p><strong>Harbourview Dental Studio</strong><br>
+      1989 West Seaview Blvd, Vancouver BC</p>
+      <p><strong>Hours:</strong><br>
+      Mon–Fri: 9:00am – 5:00pm<br>
+      Sat: 10:00am – 2:00pm<br>
+      Sun: Closed</p>
+    </div>
+  </div>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.864361861772!2d-123.11622628431753!3d49.28189827933039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867179972c7c6d%3A0xc70b19c4ae50e2b7!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1614841383859!5m2!1sen!2sca" 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</section>
+</div>
+
+<style>
+.cs_map_section_with_info {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.cs_map_section_with_info iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.cs_map_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 30px;
+  pointer-events: none; /* Let clicks pass through to the map */
+}
+
+.cs_map_info_box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px 25px;
+  border-radius: 12px;
+  max-width: 300px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  pointer-events: auto; /* Allow interaction inside box */
+}
+
+.cs_map_info_box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #274760;
+}
+
+.cs_map_info_box p {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 0.95rem;
+}
+</style>
+
+<style>
+  .cs_spacing_above_map {
+    padding-top: 60px;
+  }
+  </style>
+
+<!-- End Google Maps Full-Width Section -->
+
+
     <!-- Start Brands Section -->
     
     <div class="cs_height_200 cs_height_xl_150 cs_height_lg_110"></div>
